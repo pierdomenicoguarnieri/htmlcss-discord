@@ -5,13 +5,28 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 60px;
+  line-height: 180px;
+}
+
+h2{
+
+}
+
+p, span{
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
 .debug{
   background-color: rgba(255, 0, 0, 0.5);
   border: 1px solid black;
-}
-
-.header-section .container{
-  flex-direction: column;
 }
 
 .flex{
@@ -28,21 +43,32 @@
   flex-direction: row-reverse;
 }
 
+.button{
+  min-width: 50px;
+  border-radius: 2rem;
+  background-color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 /* Header */
 header{
   display: flex;
   margin: 10px 0;
   padding: 10px 10px;
-  background-color: #DAA520;
-  border: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
 }
 
 section.header-section{
   display: flex;
   flex-direction: column;
-  background-color: #ADD8E6;
+  background-color: #255EE9;
 }
 
+.header-section .container{
+  flex-direction: column;
+}
 
 .header-section .container nav ul{
   display: flex;
@@ -51,28 +77,36 @@ section.header-section{
 }
 
 .header-section .container nav ul li:not(:last-child){
-  margin-right: 15px;
+  margin-right: 40px;
 }
 
 .header-section .container nav ul li a{
-  color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
   text-decoration: none;
 }
 
-.header-section .container nav{
-  width: 50%;
-  display: flex;
-  justify-content: center;
+.header-section .container nav ul li a:hover{
+  text-decoration: underline;
 }
 
-.header-section .container .logo{
-  width: 25%;
+.header-section .container nav{
+  display: flex;
 }
 
 .header-section .container .button{
-  width: 25%;
   display: flex;
   justify-content: flex-end;
+}
+
+.button.login{
+  padding: 10px 15px;
+  color: black;
+}
+
+.button.login:hover{
+  color: #255EE9;
 }
 
 .jumbotron{
@@ -80,15 +114,54 @@ section.header-section{
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 20px 0 5px 0;
-  height: 500px;
-  background-color: #00008B;
+  height: 600px;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
 }
 
 .jumbotron .jumbotron-content{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   height: 80%;
-  background-color: #EE82EE;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron-content p{
+  margin-bottom: 30px;
+}
+
+.jumbotron-content .jumbotron-buttons{
+  justify-content: space-around;
+  width: 65%;
+  font-size: 22px;
+}
+
+.jumbotron-buttons a{
+  padding: 15px 30px;
+}
+
+.jumbotron-buttons a i{
+  font-size: 18px;
+}
+
+.button.download{
+  color: black;
+}
+
+.button.download:hover{
+  color: #255EE9;
+}
+
+.button.open-browser{
+  background-color: #23272A;
+  color: white;
+}
+
+.button.open-browser:hover{
+  color: #255EE9;
 }
 
 /* Main */
