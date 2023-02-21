@@ -12,7 +12,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Struttura Discord</title>
+    <title>Discord</title>
   </head>
   
   <body>
@@ -35,10 +35,14 @@
           <a href="#" class="button login">Accedi</a>
         </header>
       </div>
+      <!-- Jumbotron -->
       <div class="jumbotron">
         <div class="jumbotron-content flex">
           <h1>Il tuo posto per parlare</h1>
-          <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di nun piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+          <p>
+            Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di nun piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+          </p>
+          <!-- Pulsanti del Jumbotron -->
           <div class="jumbotron-buttons flex">
             <a href="#" class="button download">
               <i class="fa-solid fa-down-long"></i> <span>Scarica per Mac</span>
@@ -51,11 +55,10 @@
 
     <!-- Main -->
     <main>
-      <!-- Tutte le sezioni dispari hanno un background-color grigio -->
       <section class="section-with-content">
         <div class="container flex">
           <div class="image padding-right">
-            <img src="assets/img/item1.svg" alt="">
+            <img src="assets/img/item1.svg" alt="Server Discord" title="Server Discord">
           </div>
           <div class="text">
             <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
@@ -63,40 +66,54 @@
           </div>
         </div>
       </section>
-      <img src="assets/img/wave.svg" alt="" class="wave flex">
+      <!-- Container dell'onda -->
+      <div class="wave-container flex">
+        <img src="assets/img/wave.svg" alt="" class="wave flex">
+      </div>
       <section class="section-with-content grey-section">
         <div class="container flex row-reverse">
           <div class="image padding-left">
-            <img src="assets/img/item2.svg" alt="">
+            <img src="assets/img/item2.svg" alt="Canali vocali" title="Canali vocali">
           </div>
           <div class="text">
             <h2>Dove trovarsi è facile</h2>
-            <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+            <p>
+              Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
+            </p>destra
           </div>
         </div>
       </section>
-      <img src="assets/img/wave.svg" alt="" class="wave upsidedown flex">
+      <!-- Container dell'onda capovolta-->
+      <div class="wave-container flex">
+        <img src="assets/img/wave.svg" alt="" class="wave upsidedown">
+      </div>
       <section class="section-with-content">
         <div class="container flex">
           <div class="image padding-right">
-            <img src="assets/img/item3.svg" alt="">
+            <img src="assets/img/item3.svg" alt="Community" title="Community">
           </div>
           <div class="text">
             <h2>Da pochi a un fandom</h2>
-            <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+            <p>
+              Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
+            </p>
           </div>
         </div>
       </section>
-      <img src="assets/img/wave.svg" alt="" class="wave flex">
+      <!-- Container dell'onda -->
+      <div class="wave-container flex">
+        <img src="assets/img/wave.svg" alt="" class="wave flex">
+      </div>
       <section class="section-with-content grey-section">
         <div class="container flex">
           <div class="center-main-content flex">
             <div class="center-main-content text">
               <h2>Tecnologia affidabile per tenersi in contatto</h2>
-              <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivsione schermo.</p>
+              <p>
+                Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivsione schermo.
+              </p>
             </div>
-            
-            <img src="assets/img/item4-big.svg" alt="">
+            <img src="assets/img/item4-big.svg" alt="Tecnologia per tenersi in contatto" Title="Tecnologia per tenersi in contatto">
             <span id="span-background">Pronto a iniziare la tua avventura?</span>
             <a class="button download blue-background" href="#">
               <i class="fa-solid fa-down-long"></i>
@@ -110,10 +127,12 @@
     <!-- Footer -->
     <footer>
       <div class="container">
+        <!-- Parte superiore del footer -->
         <section class="top-footer flex">
+          <!-- Parte sinistra -->
           <div class="col-social">
             <h3>Il tuo posto per parlare</h3>
-            <img src="assets/img/ita.png" alt="">
+            <img src="assets/img/ita.png" alt="Italia" title="Italia">
             <span>Italiano <i class="fa-solid fa-angle-down"></i></span>
             <div class="social-icons">
               <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -122,16 +141,17 @@
               <a href="#"><i class="fa-brands fa-youtube"></i></a>
             </div>
           </div>
+          <!-- Parte destra -->
           <div class="footer-menu">
             <div class="col">
               <span>Prodotto</span>
               <nav>
                 <ul>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Perché Discord</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
+                  <li><a href="#">Scarica</a></li>
+                  <li><a href="#">Perché Discord</a></li>
+                  <li><a href="#">Nitro</a></li>
+                  <li><a href="#">Sicurezza</a></li>
+                  <li><a href="#">Assistenza</a></li>
                 </ul>
               </nav>
             </div>
@@ -139,11 +159,11 @@
               <span>Compagnia</span>
               <nav>
                 <ul>
-                  <li><a href="">Chi siamo</a></li>
-                  <li><a href="">Lavora con noi</a></li>
-                  <li><a href="">Marchio</a></li>
-                  <li><a href="">Redazione</a></li>
-                  <li><a href="">Negozio</a></li>
+                  <li><a href="#">Chi siamo</a></li>
+                  <li><a href="#">Lavora con noi</a></li>
+                  <li><a href="#">Marchio</a></li>
+                  <li><a href="#">Redazione</a></li>
+                  <li><a href="#">Negozio</a></li>
                 </ul>
               </nav>
             </div>
@@ -151,16 +171,16 @@
               <span>Risorse</span>
               <nav>
                 <ul>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Perché Discord</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
-                  <li><a href="">Scarica</a></li>
-                  <li><a href="">Perché Discord</a></li>
-                  <li><a href="">Nitro</a></li>
-                  <li><a href="">Sicurezza</a></li>
-                  <li><a href="">Assistenza</a></li>
+                  <li><a href="#">Scarica</a></li>
+                  <li><a href="#">Perché Discord</a></li>
+                  <li><a href="#">Nitro</a></li>
+                  <li><a href="#">Sicurezza</a></li>
+                  <li><a href="#">Assistenza</a></li>
+                  <li><a href="#">Scarica</a></li>
+                  <li><a href="#">Perché Discord</a></li>
+                  <li><a href="#">Nitro</a></li>
+                  <li><a href="#">Sicurezza</a></li>
+                  <li><a href="#">Assistenza</a></li>
                 </ul>
               </nav>
             </div>
@@ -168,19 +188,20 @@
               <span>Norme</span>
               <nav>
                 <ul>
-                  <li><a href="">Chi siamo</a></li>
-                  <li><a href="">Lavora con noi</a></li>
-                  <li><a href="">Marchio</a></li>
-                  <li><a href="">Redazione</a></li>
-                  <li><a href="">Negozio</a></li>
+                  <li><a href="#">Chi siamo</a></li>
+                  <li><a href="#">Lavora con noi</a></li>
+                  <li><a href="#">Marchio</a></li>
+                  <li><a href="#">Redazione</a></li>
+                  <li><a href="#">Negozio</a></li>
                 </ul>
               </nav>
             </div>
           </div>
         </section>
+        <!-- Parte inferiore del footer -->
         <section class="bottom-footer flex">
             <div class="logo">
-              <img src="assets/img/logo.svg" alt="">
+              <img src="assets/img/logo.svg" alt="Logo Discord" title="Logo Discord">
             </div>
             <a href="#" class="button register blue-background">Registrati</a>
         </section>

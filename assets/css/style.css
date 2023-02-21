@@ -73,7 +73,9 @@ i{
   padding: 0 100px 0 0;
 }
 
-/* Header */
+/* HEADER */
+
+/* Styling generale dell'header */
 header{
   display: flex;
   margin: 10px 0;
@@ -92,6 +94,7 @@ section.header-section{
   flex-direction: column;
 }
 
+/* Styling del menu */
 .header-section .container nav ul{
   display: flex;
   flex-wrap: wrap;
@@ -117,6 +120,7 @@ section.header-section{
   display: flex;
 }
 
+/* Styling dei bottoni */
 .header-section .container .button{
   display: flex;
   justify-content: flex-end;
@@ -131,6 +135,9 @@ section.header-section{
   color: #255EE9;
 }
 
+/* JUMBOTRON */
+
+/* Styling generale del Jumbotron */
 .jumbotron{
   display: flex;
   align-items: center;
@@ -157,6 +164,7 @@ section.header-section{
   margin-bottom: 30px;
 }
 
+/* Styling dei bottoni del jumbotron */
 .jumbotron-content .jumbotron-buttons{
   justify-content: space-around;
   width: 70%;
@@ -181,10 +189,12 @@ section.header-section{
 }
 
 .button.open-browser:hover{
-  color: #255EE9;
+  background-color: black;
 }
 
-/* Main */
+/* MAIN */
+
+/* Styling generale del Main */
 .grey-section{
   background-color: #F6F6F6;
 }
@@ -206,6 +216,7 @@ section.header-section{
   padding: 30px 0;
 }
 
+/* Styling section con contenuto a colonne */
 .center-main-content{
   flex-direction: column;
   text-align: center;
@@ -239,6 +250,7 @@ section.header-section{
   background-size: 100%;
 }
 
+/* Styling dei bottoni */
 .button.blue-background{
   align-self: center;
   padding: 15px 30px;
@@ -251,6 +263,7 @@ section.header-section{
   background-color: #255EE9;
 }
 
+/* Esercizio Bonus */
 .wave{
   filter: invert(99%) sepia(6%) saturate(27%) hue-rotate(244deg) brightness(113%) contrast(93%);
 }
@@ -259,7 +272,9 @@ section.header-section{
   transform: rotateX(180deg);
 }
 
-/* Footer */
+/* FOOTER */
+
+/* Styling generale del Footer */
 footer{
   background-color: #23272A;
   padding-top: 10px;
@@ -282,6 +297,9 @@ footer span > i{
   font-size: 16px;
 }
 
+/* Styling della sezione superiore del footer */
+
+/* Styling del lato sinistro */
 footer .top-footer{
   margin-top: 100px;
   padding-bottom: 30px;
@@ -313,6 +331,7 @@ footer .col-social{
   font-size: 25px;
 }
 
+/* Styling del lato destro */
 footer .footer-menu{
   display: flex;
   width: 70%;
@@ -351,13 +370,14 @@ footer .footer-menu{
   text-decoration: underline;
 }
 
+/* Styling della parte inferiore del footer */
 footer .bottom-footer{
   justify-content: space-between;
   align-content: center;
   margin-top: 30px;
   padding: 10px 0;
+  min-height: 70px;
 }
-
 .button.register{
   padding: 10px 25px;
 }
