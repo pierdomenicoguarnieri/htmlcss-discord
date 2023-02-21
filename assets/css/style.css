@@ -277,13 +277,13 @@ footer span > i{
 footer .top-footer{
   margin-top: 100px;
   padding-bottom: 30px;
-  border-bottom: 2px solid #B4B3B3;
+  border-bottom: 1px solid #7289DA;
 }
 
 footer .col-social{
   padding-right: 40px;
   width: 30%;
-  height: 500px;
+  min-height: 200px;
 }
 
 .col-social img{
@@ -308,13 +308,12 @@ footer .col-social{
 footer .footer-menu{
   display: flex;
   width: 70%;
-  height: 500px;
+  min-height: 200px;
 }
 
 .footer-menu .col{
   width: calc(100%/4);
-  height: 100%;
-  border: 1px dashed white;
+  min-height: 200px;
   padding-left: 50px;
   font-size: 18px;
   font-weight: 600;
@@ -323,6 +322,10 @@ footer .footer-menu{
 .footer-menu .col span{
   color: #7289DA;
   font-weight: 800;
+}
+
+.footer-menu .col nav ul{
+  margin-top: 5px;
 }
 
 .footer-menu .col nav ul li{
@@ -342,12 +345,11 @@ footer .footer-menu{
 
 footer .bottom-footer{
   justify-content: space-between;
+  align-content: center;
   margin-top: 30px;
   padding: 10px 0;
-  background-color: #7FFFD4;
 }
 
-footer .bottom-footer .logo, footer .bottom-footer .button{
-  padding: 5px;
-  background-color: #FFB6C1;
+.button.register{
+  padding: 10px 25px;
 }
