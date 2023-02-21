@@ -257,28 +257,87 @@ footer{
   padding-top: 10px;
 }
 
+footer h3{
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 800;
+  color: #7289DA;
+  margin-bottom: 30px;
+}
+
+footer span{
+  font-size: 18px;
+  color: white;
+}
+
+footer span > i{
+  font-size: 16px;
+}
+
 footer .top-footer{
+  margin-top: 100px;
   padding-bottom: 30px;
   border-bottom: 2px solid #B4B3B3;
 }
 
 footer .col-social{
+  padding-right: 40px;
   width: 30%;
   height: 500px;
-  background-color: #F08080;
+}
+
+.col-social img{
+  height: 20px;
+  vertical-align: middle;
+}
+
+.social-icons a{
+  color: white;
+}
+
+.social-icons a:hover{
+  color: #7289DA;
+}
+
+.social-icons i{
+  margin-top: 20px;
+  margin-right: 25px;
+  font-size: 25px;
 }
 
 footer .footer-menu{
   display: flex;
   width: 70%;
   height: 500px;
-  background-color: #20B2AA;
 }
 
 .footer-menu .col{
   width: calc(100%/4);
   height: 100%;
   border: 1px dashed white;
+  padding-left: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-menu .col span{
+  color: #7289DA;
+  font-weight: 800;
+}
+
+.footer-menu .col nav ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-menu .col nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menu .col nav ul li a:hover{
+  color: #7289DA;
+  text-decoration: underline;
 }
 
 footer .bottom-footer{
