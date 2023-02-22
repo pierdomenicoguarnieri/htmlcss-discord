@@ -146,6 +146,7 @@ section.header-section{
   height: 600px;
   background-image: url("../img/jumbo.png");
   background-size: cover;
+  background-position: center;
 }
 
 .jumbotron .jumbotron-content{
